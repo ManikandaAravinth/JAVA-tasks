@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class IfStatement{
+
+ public static void main(String args[]){
+	int age = 18;
+if(age<18){
+system.out,println("Not eligible for voting");
+}
+if (age>=18){
+system.out.println("You are eligible for voting");
+}
+
+
+
+
+
+
+
+
+
+}
