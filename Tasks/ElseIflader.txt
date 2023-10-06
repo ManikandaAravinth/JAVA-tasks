@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class IfStatement{
+
+	public static void main(String args[]){
+		Scanner Lader = new Scanner(System.in);
+	System.out.println("Enter your age");
+		int Mark = lader.nextInt();
+	
+		if(Mark<=39){
+	System.out.println("Your grade is D");
+}
+		if (mark >=40 && <=59){
+	System.out.println("Your grade is C");
+}
+		if (mark >=60 && <=79){
+	System.out.println("Your grade is B");
+}
+		if (mark >=80 && <=89){
+	System.out.println("Your grade is A");
+}
+		if (mark >=90 && <=100){
+	System.out.println("Your grade is O');
+}
+}
+}

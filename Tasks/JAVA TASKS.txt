@@ -1,0 +1,190 @@
+17-07-2023
+----------
+
+TASK 1  byte in side the main
+------
+
+class Task1{
+	public static void main(String args[]){
+	byte a = 10;
+	byte b = 5;
+	
+	System.out.println(a+b);
+}
+}
+
+OUTPUT
+------
+
+
+D:\KGM\JAVA-tasks>javac Task1.java
+
+D:\KGM\JAVA-tasks>java Task1
+15
+
+D:\KGM\JAVA-tasks>
+
+TASK 2 short addition using static keyword 
+------
+
+class Task1{
+
+	static short a = 169 , b = 619;
+	public static void main(String args[]){
+	short c = (short) (a+b);
+	
+	System.out.println(c);
+}
+}
+
+OUTPUT
+------
+
+D:\KGM\JAVA-tasks>javac Task1.java
+
+D:\KGM\JAVA-tasks>java Task1
+788
+
+D:\KGM\JAVA-tasks>
+
+
+
+Task 3  int divition using an object name
+-----------------------------------------
+
+
+class Task1{
+
+	int a = 10;
+	int b = 5;
+	
+	public static void main(String args[]){
+//new object created for a & b
+	Task1 object = new Task1();
+	int c = object.a/object.b;
+	
+	System.out.println(c);
+}
+}
+
+Task 4
+------
+
+class Task1{
+
+	double a = 1000d;
+	double b = 500d;
+	
+	public static void main(String args[]){
+	Task1 object = new Task1();
+	double c =object.a-object.b;
+	
+	System.out.println(c);
+}
+}
+
+OUTPUT
+------
+
+D:\KGM\JAVA-tasks>javac Task1.java
+
+D:\KGM\JAVA-tasks>java Task1
+500.0
+
+
+TASK 5
+------
+
+
+class Task1{
+
+	float a = 15000f, b = 12000f; 
+	
+	
+	public static void main(String args[]){
+	Task1 object = new Task1();
+	float c =object.a/object.b;
+	
+	System.out.println(c);
+}
+}
+
+OUTPUT
+------
+
+D:\KGM\JAVA-tasks>javac Task1.java
+
+D:\KGM\JAVA-tasks>java Task1
+1.25
+
+
+TASK 6
+------
+
+
+class Task1{
+
+	long a = 1234567890l, b = 1234567880l; 
+	
+	
+	public static void main(String args[]){
+	Task1 object = new Task1();
+	long c =object.a-object.b;
+	
+	System.out.println(c);
+}
+}
+
+
+OUTPUT
+------
+
+D:\KGM\JAVA-tasks>javac Task1.java
+
+D:\KGM\JAVA-tasks>java Task1
+10
+
+
+18-07-2023
+----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As a full stack developer, I possess the skills to work on both the front-end and back-end of web applications. 
+I am proficient in a variety of technologies and frameworks, enabling them to handle various aspects of the development process,
+from designing user interfaces to managing databases and servers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
